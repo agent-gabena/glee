@@ -3,6 +3,124 @@
 @import 'reset';
 @import 'global';
 
+.header{
+  margin: 0 auto;
+  padding:40px 0 ;
+  &__logo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    left: 0;
+  }
+  &__logo-text{
+      font-size: 36px;
+      line-height: 58px;
+      @extend %rubik-500;
+      color: $default-color;
+    } 
+}
+.header__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu__list{
+  display: flex;
+  justify-content: space-between;
+  &-item a{
+    color: $default-color;
+    text-decoration: none;
+  }
+  &-link{
+    font-size: 15px;
+    line-height: 12px;
+    @extend %rubik-400;
+  }
+}
+.menu__list-item + .menu__list-item{
+  padding-left: 30px;
+}
+.haeder__novigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  right: 0;
+  
+}
+.h__n-i4{
+  background-color: #a3bbc8;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: relative;
+}
+.h__n-i1{
+  background-color: #edf1f4;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: relative;
+  margin-right: 20px;
+}
+.h__n-i3,
+.h__n-i2{
+  background-color: #fcd7b6;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: relative;
+}
+.haeder__novigation-items{
+  display: flex;
+  width: 180px;
+  background-image: url('../images/bgi.png');
+  background-repeat: no-repeat;
+  justify-content: space-around;
+  margin-right: 20px;
+}
+.h__n-i__num{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  top: 4px;
+  right: 4px;
+  font-size: 10px;
+  line-height: 20px;
+  @extend %dmsans-400
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
